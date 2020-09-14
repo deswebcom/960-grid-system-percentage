@@ -1,0 +1,105 @@
+/*
+  960 Grid System ~ Text CSS.
+  Learn more ~ http://960.gs/
+
+  Licensed under GPL and MIT.
+*/
+
+/* `Basic HTML
+
+  Porcentajes dependientes de 960percent.css
+  Tamaño de fuente inicial la que dé el navegador, se puede sustituir por el tamaño elegido, así como la altura de la línea.
+  Se puede jugar con media querys para que el tamaño de la fuente inicial varíe en función del tamaño de pantalla.
+----------------------------------------------------------------------------------------------------*/
+
+body {
+  font: 100%/140% 'Helvetica Neue', Arial, 'Liberation Sans', FreeSans, sans-serif;
+}
+
+pre,
+code {
+  font-family: 'DejaVu Sans Mono', Menlo, Consolas, monospace;
+}
+
+hr {
+  border: 0 #ccc solid;
+  border-top-width: 1px;
+  clear: both;
+  height: 0;
+}
+
+/* `Headings
+----------------------------------------------------------------------------------------------------*/
+
+h1 {
+  font-size: 200%;
+}
+
+h2 {
+  font-size: 177%;
+}
+
+h3 {
+  font-size: 162%;
+}
+
+h4 {
+  font-size: 150%;
+}
+
+h5 {
+  font-size: 131%;
+}
+
+h6 {
+  font-size: 115%;
+}
+
+/* `Spacing
+----------------------------------------------------------------------------------------------------*/
+
+ol {
+  list-style: decimal;
+}
+
+ul {
+  list-style: disc;
+}
+
+li {
+  margin-left: 3.125%;
+}
+
+p,
+dl,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ol,
+ul,
+pre,
+table,
+address,
+fieldset,
+figure {
+  margin-bottom: 2.0833333333333333333333333333333%;
+}
+@media only screen and (max-width:240px) {
+    body {
+      font-size: 50%;
+    }
+}
+@media only screen and (min-width:241px) and (max-width:768px) {
+    body {
+      font-size: 80%;
+    }
+}
+@media only screen and (min-width:769px) and (max-width:1024px) {
+    body {
+      font-size: 100%;
+    }
+}
